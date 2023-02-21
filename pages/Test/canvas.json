@@ -190,7 +190,7 @@
                       "isDisabled": false
                     },
                     {
-                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "boxShadow": "none",
                       "onSort": "{{SelectQuery.run()}}",
                       "isVisibleDownload": true,
                       "iconSVG": "/static/media/icon.db8a9cbd.svg",
@@ -211,12 +211,6 @@
                         },
                         {
                           "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "boxShadow"
                         },
                         {
                           "key": "primaryColumns.customColumn1.borderRadius"
@@ -255,7 +249,7 @@
                           "menuColor": "{{appsmith.theme.colors.primaryColor}}"
                         }
                       },
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "borderRadius": "0px",
                       "primaryColumnId": "value",
                       "columnSizeMap": {
                         "task": 245,
@@ -274,6 +268,7 @@
                           "key": "primaryColumns.customColumn1.borderRadius"
                         }
                       ],
+                      "compactMode": "SHORT",
                       "displayName": "Table",
                       "bottomRow": 84,
                       "parentRowSpace": 10,
@@ -292,6 +287,9 @@
                         },
                         {
                           "key": "onSort"
+                        },
+                        {
+                          "key": "onRowSelected"
                         }
                       ],
                       "primaryColumns": {
@@ -316,7 +314,9 @@
                           "enableSort": true,
                           "id": "customColumn1",
                           "isDisabled": false,
-                          "buttonLabelColor": "#FFFFFF"
+                          "buttonLabelColor": "#FFFFFF",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER"
                         },
                         "label": {
                           "index": 0,
@@ -357,6 +357,7 @@
                           "cellBackground": ""
                         }
                       },
+                      "onRowSelected": "",
                       "key": "zba5qel0au",
                       "derivedColumns": {
                         "customColumn1": {
@@ -380,7 +381,9 @@
                           "enableSort": true,
                           "id": "customColumn1",
                           "isDisabled": false,
-                          "buttonLabelColor": "#FFFFFF"
+                          "buttonLabelColor": "#FFFFFF",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER"
                         }
                       },
                       "labelTextSize": "0.875rem",
@@ -391,7 +394,7 @@
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "59rw5mx0bq",
-                      "serverSidePaginationEnabled": true,
+                      "serverSidePaginationEnabled": false,
                       "renderMode": "CANVAS",
                       "horizontalAlignment": "LEFT",
                       "isVisibleSearch": true,
