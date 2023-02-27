@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 77,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -154,6 +154,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "columnUpdatedAt": 1677508649347,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -208,7 +209,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"vin\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "make": {
                   "allowCellWrapping": false,
@@ -236,7 +238,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"make\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "model": {
                   "allowCellWrapping": false,
@@ -264,7 +267,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"model\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "year": {
                   "allowCellWrapping": false,
@@ -292,7 +296,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"year\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "interval": {
                   "allowCellWrapping": false,
@@ -320,7 +325,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"interval\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "last_service_date": {
                   "allowCellWrapping": false,
@@ -348,7 +354,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_service_date\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "last_service_notes": {
                   "allowCellWrapping": false,
@@ -376,7 +383,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_service_notes\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "next_service_due": {
                   "allowCellWrapping": false,
@@ -404,10 +412,12 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"next_service_due\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 }
               },
               "key": "pd6s8cwdkt",
+              "canFreezeColumn": false,
               "isDeprecated": false,
               "rightColumn": 34,
               "textSize": "0.875rem",
