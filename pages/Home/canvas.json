@@ -45,7 +45,7 @@
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 8,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -58,7 +58,7 @@
               "isDisabled": false,
               "key": "tir2q67lcy",
               "isDeprecated": false,
-              "rightColumn": 24,
+              "rightColumn": 16,
               "isDefaultClickDisabled": true,
               "widgetId": "irdtdum88s",
               "isVisible": true,
