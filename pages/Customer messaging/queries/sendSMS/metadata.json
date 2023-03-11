@@ -23,7 +23,7 @@
         "Body": "{{Input1.text}}",
         "Fom": "{{appsmith.store.phone_number}}",
         "PageSize": "2",
-        "TWILIO_ACCOUNT_SID": "{{appsmith.store.sid}}",
+        "TWILIO_ACCOUNT_SID": "{{appsmith.store.sidz}}",
         "To": "{{this.params.num}}",
         "command": "CREATE_MESSAGE"
       }
@@ -49,7 +49,7 @@
     "jsonPathKeys": [
       "Input1.text",
       "appsmith.store.phone_number",
-      "appsmith.store.sid",
+      "appsmith.store.sidz",
       "this.params.num"
     ],
     "userSetOnLoad": false,
