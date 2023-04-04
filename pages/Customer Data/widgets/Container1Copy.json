@@ -1,8 +1,9 @@
 {
-    "boxShadow": "NONE",
+    "boxShadow": "none",
     "widgetName": "Container1Copy",
     "borderColor": "transparent",
     "isCanvas": true,
+    "dynamicPropertyPathList": [{"key": "borderRadius"}],
     "displayName": "Container",
     "iconSVG": "/static/media/icon.1977dca3.svg",
     "topRow": 0,
@@ -18,8 +19,10 @@
     "children": ["em3azzt89s"],
     "borderWidth": "0",
     "key": "6bzu8mpizb",
+    "labelTextSize": "0.875rem",
     "backgroundColor": "#64508C",
     "rightColumn": 56,
+    "dynamicHeight": "FIXED",
     "widgetId": "9vos6009k6",
     "containerStyle": "card",
     "isVisible": true,
@@ -27,5 +30,7 @@
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "borderRadius": "15"
+    "borderRadius": "15px",
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
 }

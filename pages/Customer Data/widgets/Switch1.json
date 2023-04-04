@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "Switch1",
     "dynamicPropertyPathList": [{"key": "defaultSwitchState"}],
     "displayName": "Switch",
@@ -14,15 +15,22 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 42,
     "dynamicBindingPathList": [{"key": "defaultSwitchState"}],
+    "labelPosition": "Left",
     "isDisabled": false,
     "key": "lh31qw774h",
+    "labelTextSize": "0.875rem",
     "rightColumn": 61,
+    "dynamicHeight": "FIXED",
     "widgetId": "x6j938ot2g",
+    "accentColor": "#03B365",
     "isVisible": true,
     "label": "",
     "defaultSwitchState": "{{data_table.selectedRow.UsersDoNotDisturb==1}}",
     "version": 1,
     "parentId": "52qrodu5iz",
     "renderMode": "CANVAS",
-    "isLoading": false
+    "isLoading": false,
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
 }

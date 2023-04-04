@@ -1,11 +1,13 @@
 {
+    "labelTextSize": "0.875rem",
+    "boxShadow": "none",
     "widgetName": "Canvas1",
     "rightColumn": 632,
     "detachFromLayout": true,
     "widgetId": "59rw5mx0bq",
     "containerStyle": "none",
     "topRow": 0,
-    "bottomRow": 860,
+    "bottomRow": 700,
     "parentRowSpace": 1,
     "isVisible": "true",
     "canExtend": false,
@@ -18,6 +20,7 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [],
+    "borderRadius": "0px",
     "children": [
         "jabdu9f16g",
         "asmgosgxjm",

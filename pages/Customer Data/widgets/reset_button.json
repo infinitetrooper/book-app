@@ -1,10 +1,12 @@
 {
     "resetFormOnClick": true,
+    "labelTextSize": "0.875rem",
+    "boxShadow": "none",
     "widgetName": "reset_button",
-    "rightColumn": 38,
     "onClick": "{{closeModal('Insert_Modal')}}",
-    "isDefaultClickDisabled": true,
+    "rightColumn": 38,
     "buttonColor": "#2E3D49",
+    "isDefaultClickDisabled": true,
     "widgetId": "o23gs26wm5",
     "topRow": 30,
     "bottomRow": 35,
@@ -15,10 +17,10 @@
     "parentId": "9rhv3ioohq",
     "isLoading": false,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "disabledWhenInvalid": false,
     "leftColumn": 16,
     "dynamicBindingPathList": [],
-    "borderRadius": "ROUNDED",
+    "disabledWhenInvalid": false,
+    "borderRadius": "0.375rem",
     "buttonVariant": "PRIMARY",
     "text": "Close"
 }
