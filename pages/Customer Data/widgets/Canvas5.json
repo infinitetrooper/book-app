@@ -1,22 +1,14 @@
 {
+    "boxShadow": "none",
     "widgetName": "Canvas5",
-    "rightColumn": 433.5,
-    "detachFromLayout": true,
     "displayName": "Canvas",
-    "widgetId": "52qrodu5iz",
-    "containerStyle": "none",
     "topRow": 0,
-    "bottomRow": 410,
+    "bottomRow": 430,
     "parentRowSpace": 1,
-    "isVisible": true,
     "type": "CANVAS_WIDGET",
     "canExtend": false,
-    "version": 1,
     "hideCard": true,
-    "parentId": "qe5zb4l34d",
     "minHeight": 400,
-    "renderMode": "CANVAS",
-    "isLoading": false,
     "parentColumnSpace": 1,
     "leftColumn": 0,
     "children": [
@@ -29,5 +21,16 @@
         "4gnygu5jew",
         "twwgpz5wfu"
     ],
-    "key": "ujn55l8yc3"
+    "key": "ujn55l8yc3",
+    "labelTextSize": "0.875rem",
+    "rightColumn": 433.5,
+    "detachFromLayout": true,
+    "widgetId": "52qrodu5iz",
+    "containerStyle": "none",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "qe5zb4l34d",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "0px"
 }

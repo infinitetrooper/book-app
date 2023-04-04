@@ -1,4 +1,6 @@
 {
+    "labelTextSize": "0.875rem",
+    "boxShadow": "none",
     "widgetName": "Canvas3",
     "rightColumn": 453.1875,
     "detachFromLayout": true,
@@ -18,6 +20,7 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [],
+    "borderRadius": "0px",
     "children": [
         "35yoxo4oec",
         "lryg8kw537",
