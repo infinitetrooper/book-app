@@ -1,0 +1,28 @@
+{
+    "widgetName": "Canvas3",
+    "rightColumn": 453.1875,
+    "detachFromLayout": true,
+    "widgetId": "zi8fjakv8o",
+    "topRow": 0,
+    "bottomRow": 190,
+    "parentRowSpace": 1,
+    "isVisible": "true",
+    "canExtend": true,
+    "type": "CANVAS_WIDGET",
+    "version": 1,
+    "parentId": "i3whp03wf0",
+    "shouldScrollContents": false,
+    "minHeight": 192,
+    "isLoading": false,
+    "parentColumnSpace": 1,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [],
+    "children": [
+        "35yoxo4oec",
+        "lryg8kw537",
+        "qq02lh7ust",
+        "48uac29g6e"
+    ],
+    "isDisabled": false
+}

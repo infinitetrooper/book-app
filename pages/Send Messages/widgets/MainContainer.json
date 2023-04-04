@@ -1,0 +1,31 @@
+{
+    "widgetName": "MainContainer",
+    "backgroundColor": "none",
+    "rightColumn": 1160,
+    "snapColumns": 64,
+    "detachFromLayout": true,
+    "widgetId": "0",
+    "topRow": 0,
+    "bottomRow": 860,
+    "containerStyle": "none",
+    "snapRows": 125,
+    "parentRowSpace": 1,
+    "type": "CANVAS_WIDGET",
+    "canExtend": true,
+    "version": 77,
+    "minHeight": 860,
+    "parentColumnSpace": 1,
+    "dynamicBindingPathList": [],
+    "leftColumn": 0,
+    "children": [
+        "n4j5niuf3l",
+        "6yn34g8ujl",
+        "b7dtld0q8n",
+        "7bptx78qzc",
+        "yxfe9r9qa8",
+        "wf0ypwhlpn",
+        "hz9qidkr2g",
+        "jani144dul",
+        "yovk1t3k13"
+    ]
+}

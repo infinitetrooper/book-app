@@ -1,0 +1,22 @@
+{
+    "widgetName": "Text20",
+    "rightColumn": 41,
+    "textAlign": "LEFT",
+    "widgetId": "gqpwf0yng6",
+    "topRow": 28,
+    "bottomRow": 32,
+    "parentRowSpace": 10,
+    "isVisible": "true",
+    "fontStyle": "BOLD",
+    "type": "TEXT_WIDGET",
+    "textColor": "#231F20",
+    "version": 1,
+    "parentId": "52qrodu5iz",
+    "isLoading": false,
+    "parentColumnSpace": 7.15625,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 1,
+    "dynamicBindingPathList": [],
+    "fontSize": "PARAGRAPH",
+    "text": "UsersDoNotDisturb"
+}

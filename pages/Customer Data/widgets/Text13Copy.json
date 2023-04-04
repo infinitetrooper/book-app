@@ -1,0 +1,21 @@
+{
+    "widgetName": "Text13Copy",
+    "rightColumn": 38,
+    "textAlign": "LEFT",
+    "widgetId": "18x7vdv3gs",
+    "topRow": 2,
+    "bottomRow": 6,
+    "isVisible": "true",
+    "fontStyle": "BOLD",
+    "type": "TEXT_WIDGET",
+    "textColor": "#231F20",
+    "version": 1,
+    "shouldScroll": false,
+    "parentId": "9rhv3ioohq",
+    "isLoading": false,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 3,
+    "dynamicBindingPathList": [],
+    "fontSize": "HEADING1",
+    "text": "Insert Row"
+}

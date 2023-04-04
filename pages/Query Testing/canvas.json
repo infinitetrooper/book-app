@@ -5,27 +5,6 @@
     "layouts": [
       {
         "viewMode": false,
-        "dsl": {
-          "widgetName": "MainContainer",
-          "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 740,
-          "containerStyle": "none",
-          "snapRows": 73,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "version": 77,
-          "minHeight": 750,
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "children": []
-        },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,

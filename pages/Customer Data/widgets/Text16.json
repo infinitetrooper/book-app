@@ -1,0 +1,22 @@
+{
+    "widgetName": "Text16",
+    "rightColumn": 42,
+    "textAlign": "LEFT",
+    "widgetId": "urzv99hdc8",
+    "topRow": 1,
+    "bottomRow": 6,
+    "parentRowSpace": 10,
+    "isVisible": "true",
+    "fontStyle": "BOLD",
+    "type": "TEXT_WIDGET",
+    "textColor": "#231F20",
+    "version": 1,
+    "parentId": "59rw5mx0bq",
+    "isLoading": false,
+    "parentColumnSpace": 11.78515625,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 1,
+    "dynamicBindingPathList": [],
+    "fontSize": "HEADING1",
+    "text": "Customers Data"
+}

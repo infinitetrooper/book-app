@@ -1,0 +1,31 @@
+{
+    "boxShadow": "none",
+    "widgetName": "Canvas9CopyCopyCopy",
+    "displayName": "Canvas",
+    "topRow": 0,
+    "bottomRow": 130,
+    "parentRowSpace": 1,
+    "type": "CANVAS_WIDGET",
+    "canExtend": false,
+    "hideCard": true,
+    "minHeight": 400,
+    "parentColumnSpace": 1,
+    "leftColumn": 0,
+    "children": [
+        "dazpisyfjp",
+        "f7vr27ojao",
+        "zme5pr05yz"
+    ],
+    "key": "he8asa5zlk",
+    "labelTextSize": "0.875rem",
+    "rightColumn": 433.5,
+    "detachFromLayout": true,
+    "widgetId": "wckpophu03",
+    "containerStyle": "none",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "nkj5h46ydk",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "0px"
+}

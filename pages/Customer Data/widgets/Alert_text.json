@@ -1,0 +1,20 @@
+{
+    "widgetName": "Alert_text",
+    "rightColumn": 42,
+    "textAlign": "LEFT",
+    "widgetId": "35yoxo4oec",
+    "topRow": 2,
+    "bottomRow": 6,
+    "isVisible": "true",
+    "fontStyle": "BOLD",
+    "type": "TEXT_WIDGET",
+    "textColor": "#231F20",
+    "version": 1,
+    "parentId": "zi8fjakv8o",
+    "isLoading": false,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 2,
+    "dynamicBindingPathList": [],
+    "fontSize": "HEADING1",
+    "text": "Delete Row"
+}

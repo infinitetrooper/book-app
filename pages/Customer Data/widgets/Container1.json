@@ -1,0 +1,22 @@
+{
+    "boxShadow": "NONE",
+    "backgroundColor": "#FFFFFF",
+    "widgetName": "Container1",
+    "rightColumn": 42,
+    "widgetId": "mvubsemxfo",
+    "containerStyle": "card",
+    "topRow": 14,
+    "bottomRow": 84,
+    "parentRowSpace": 10,
+    "isVisible": "true",
+    "type": "CONTAINER_WIDGET",
+    "version": 1,
+    "parentId": "0",
+    "isLoading": false,
+    "parentColumnSpace": 19.75,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 12,
+    "dynamicBindingPathList": [],
+    "borderRadius": "15",
+    "children": ["59rw5mx0bq"]
+}

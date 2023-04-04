@@ -1,0 +1,30 @@
+{
+    "boxShadow": "none",
+    "widgetName": "Canvas24",
+    "displayName": "Canvas",
+    "topRow": 0,
+    "bottomRow": 410,
+    "parentRowSpace": 1,
+    "type": "CANVAS_WIDGET",
+    "canExtend": false,
+    "hideCard": true,
+    "minHeight": 400,
+    "parentColumnSpace": 1,
+    "leftColumn": 0,
+    "children": [
+        "1p879b1hvp",
+        "xxl4jynyaq"
+    ],
+    "key": "pp95jmxgpm",
+    "labelTextSize": "0.875rem",
+    "rightColumn": 337.5,
+    "detachFromLayout": true,
+    "widgetId": "sxp58e0rzd",
+    "containerStyle": "none",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "aqka8ztr6e",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "0px"
+}
