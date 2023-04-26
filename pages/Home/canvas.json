@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 780,
+          "bottomRow": 550,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -49,15 +49,15 @@
                 "click",
                 "submit"
               ],
-              "topRow": 0,
-              "bottomRow": 10,
+              "topRow": 45,
+              "bottomRow": 55,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 22,
+              "leftColumn": 24,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -76,7 +76,7 @@
               "isDisabled": "{{ JSObject1.myFun2(1,2) === \"Akhil\" }}",
               "key": "tir2q67lcy",
               "isDeprecated": false,
-              "rightColumn": 38,
+              "rightColumn": 40,
               "isDefaultClickDisabled": true,
               "widgetId": "irdtdum88s",
               "isVisible": "{{ JSObject1.myFun2(3,4) === \"Akhil\" }}",
@@ -95,7 +95,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 10,
+              "topRow": 0,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -207,7 +207,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 43,
+              "bottomRow": 32,
               "columnWidthMap": {
                 "task": 245,
                 "step": 62,
@@ -594,8 +594,8 @@
                 "wave",
                 "player"
               ],
-              "topRow": 0,
-              "bottomRow": 10,
+              "topRow": 44,
+              "bottomRow": 54,
               "parentRowSpace": 10,
               "type": "AUDIO_WIDGET",
               "hideCard": false,
@@ -618,207 +618,6 @@
               "originalTopRow": 44,
               "originalBottomRow": 48,
               "autoPlay": false
-            },
-            {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "Container1",
-              "borderColor": "#E0DEDE",
-              "isCanvas": true,
-              "displayName": "Container",
-              "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
-              "searchTags": [
-                "div",
-                "parent",
-                "group"
-              ],
-              "topRow": 44,
-              "bottomRow": 78,
-              "parentRowSpace": 10,
-              "type": "CONTAINER_WIDGET",
-              "hideCard": false,
-              "shouldScrollContents": true,
-              "animateLoading": true,
-              "parentColumnSpace": 17.9375,
-              "leftColumn": 0,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
-                {
-                  "key": "boxShadow"
-                }
-              ],
-              "children": [
-                {
-                  "widgetName": "Canvas1",
-                  "displayName": "Canvas",
-                  "topRow": 0,
-                  "bottomRow": 340,
-                  "parentRowSpace": 1,
-                  "type": "CANVAS_WIDGET",
-                  "canExtend": false,
-                  "hideCard": true,
-                  "minHeight": 100,
-                  "parentColumnSpace": 1,
-                  "leftColumn": 0,
-                  "dynamicBindingPathList": [],
-                  "children": [
-                    {
-                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-                      "widgetName": "Chart1",
-                      "allowScroll": false,
-                      "displayName": "Chart",
-                      "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
-                      "searchTags": [
-                        "graph",
-                        "visuals",
-                        "visualisations"
-                      ],
-                      "topRow": 0,
-                      "bottomRow": 32,
-                      "parentRowSpace": 10,
-                      "type": "CHART_WIDGET",
-                      "hideCard": false,
-                      "chartData": {
-                        "7eukg76nlu": {
-                          "seriesName": "Sales",
-                          "data": [
-                            {
-                              "x": "Product1",
-                              "y": 20000
-                            },
-                            {
-                              "x": "Product2",
-                              "y": 22000
-                            },
-                            {
-                              "x": "Product3",
-                              "y": 32000
-                            }
-                          ]
-                        }
-                      },
-                      "animateLoading": true,
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 5.29296875,
-                      "leftColumn": 0,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "boxShadow"
-                        },
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        }
-                      ],
-                      "customFusionChartConfig": {
-                        "type": "column2d",
-                        "dataSource": {
-                          "data": [
-                            {
-                              "label": "Product1",
-                              "value": 20000
-                            },
-                            {
-                              "label": "Product2",
-                              "value": 22000
-                            },
-                            {
-                              "label": "Product3",
-                              "value": 32000
-                            }
-                          ],
-                          "chart": {
-                            "caption": "Sales Report",
-                            "xAxisName": "Product Line",
-                            "yAxisName": "Revenue($)",
-                            "theme": "fusion",
-                            "alignCaptionWithCanvas": 1,
-                            "captionFontSize": "24",
-                            "captionAlignment": "center",
-                            "captionPadding": "20",
-                            "captionFontColor": "#231F20",
-                            "legendIconSides": "4",
-                            "legendIconBgAlpha": "100",
-                            "legendIconAlpha": "100",
-                            "legendPosition": "top",
-                            "canvasPadding": "0",
-                            "chartLeftMargin": "20",
-                            "chartTopMargin": "10",
-                            "chartRightMargin": "40",
-                            "chartBottomMargin": "10",
-                            "xAxisNameFontSize": "14",
-                            "labelFontSize": "12",
-                            "labelFontColor": "#716e6e",
-                            "xAxisNameFontColor": "#716e6e",
-                            "yAxisNameFontSize": "14",
-                            "yAxisValueFontSize": "12",
-                            "yAxisValueFontColor": "#716e6e",
-                            "yAxisNameFontColor": "#716e6e"
-                          }
-                        }
-                      },
-                      "key": "8ylsxrd2s6",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "widgetId": "qqh03g7h88",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "oz18cxazon",
-                      "labelOrientation": "auto",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "yAxisName": "Revenue($)",
-                      "chartName": "Sales Report",
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "xAxisName": "Product Line",
-                      "chartType": "COLUMN_CHART"
-                    }
-                  ],
-                  "key": "uib983pseg",
-                  "isDeprecated": false,
-                  "rightColumn": 358.75,
-                  "detachFromLayout": true,
-                  "widgetId": "oz18cxazon",
-                  "containerStyle": "none",
-                  "minWidth": 450,
-                  "isVisible": true,
-                  "version": 1,
-                  "parentId": "seebhnzthv",
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
-                  "responsiveBehavior": "fill",
-                  "flexLayers": []
-                }
-              ],
-              "borderWidth": "1",
-              "key": "s438kwxxj1",
-              "backgroundColor": "#FFFFFF",
-              "isDeprecated": false,
-              "rightColumn": 20,
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "seebhnzthv",
-              "containerStyle": "card",
-              "minWidth": 450,
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "originalTopRow": 44,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 78,
-              "minDynamicHeight": 10
             }
           ]
         },
