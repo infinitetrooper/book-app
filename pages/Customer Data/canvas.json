@@ -453,41 +453,6 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Text16",
-                      "dynamicPropertyPathList": [
-                        {
-                          "key": "fontSize"
-                        }
-                      ],
-                      "topRow": 1,
-                      "bottomRow": 6,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "parentColumnSpace": 11.78515625,
-                      "dynamicTriggerPathList": [],
-                      "overflow": "NONE",
-                      "fontFamily": "System Default",
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [],
-                      "text": "Customers Data",
-                      "labelTextSize": "0.875rem",
-                      "rightColumn": 42,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "FIXED",
-                      "widgetId": "urzv99hdc8",
-                      "isVisible": "true",
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "59rw5mx0bq",
-                      "isLoading": false,
-                      "borderRadius": "0px",
-                      "maxDynamicHeight": 9000,
-                      "fontSize": "1.5rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "boxShadow": "none",
                       "widgetName": "Button4",
                       "onClick": "{{showModal('Insert_Modal')}}",
                       "buttonColor": "#2E3D49",
@@ -1377,6 +1342,41 @@
               "isLoading": false,
               "borderRadius": "15px",
               "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Text16",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "fontSize"
+                }
+              ],
+              "topRow": 3,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "parentColumnSpace": 11.78515625,
+              "dynamicTriggerPathList": [],
+              "overflow": "NONE",
+              "fontFamily": "System Default",
+              "leftColumn": 2,
+              "dynamicBindingPathList": [],
+              "text": "Customers Data",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 43,
+              "textAlign": "LEFT",
+              "dynamicHeight": "FIXED",
+              "widgetId": "urzv99hdc8",
+              "isVisible": "true",
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "fontSize": "1.5rem",
               "minDynamicHeight": 4
             }
           ]
