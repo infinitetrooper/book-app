@@ -115,7 +115,7 @@
                       "chartName": "",
                       "borderRadius": "0px",
                       "xAxisName": "",
-                      "chartType": "CUSTOM_FUSION_CHART"
+                      "chartType": "PIE_CHART"
                     },
                     {
                       "widgetName": "Text4",
