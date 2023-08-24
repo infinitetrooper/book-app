@@ -1,0 +1,22 @@
+{
+    "widgetName": "Text9",
+    "rightColumn": 64,
+    "textAlign": "LEFT",
+    "widgetId": "4hnz8ktmz5",
+    "topRow": 1,
+    "bottomRow": 7,
+    "parentRowSpace": 10,
+    "isVisible": "true",
+    "fontStyle": "BOLD",
+    "type": "TEXT_WIDGET",
+    "textColor": "#231F20",
+    "version": 1,
+    "parentId": "52qrodu5iz",
+    "isLoading": false,
+    "parentColumnSpace": 8.8963623046875,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 2,
+    "dynamicBindingPathList": [],
+    "fontSize": "HEADING2",
+    "text": "Update Selected Row"
+}

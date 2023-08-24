@@ -1,0 +1,22 @@
+{
+    "widgetName": "Text15",
+    "rightColumn": 12,
+    "textAlign": "LEFT",
+    "widgetId": "l8pgl90klz",
+    "topRow": 8,
+    "bottomRow": 12,
+    "parentRowSpace": 10,
+    "isVisible": "true",
+    "fontStyle": "BOLD",
+    "type": "TEXT_WIDGET",
+    "textColor": "#231F20",
+    "version": 1,
+    "parentId": "59rw5mx0bq",
+    "isLoading": false,
+    "parentColumnSpace": 19.75,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 1,
+    "dynamicBindingPathList": [],
+    "fontSize": "PARAGRAPH",
+    "text": "Order By :"
+}
