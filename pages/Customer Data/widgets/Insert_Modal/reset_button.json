@@ -1,5 +1,7 @@
 {
     "resetFormOnClick": true,
+    "labelTextSize": "0.875rem",
+    "boxShadow": "none",
     "widgetName": "reset_button",
     "rightColumn": 38,
     "onClick": "{{closeModal('Insert_Modal')}}",
@@ -18,7 +20,7 @@
     "disabledWhenInvalid": false,
     "leftColumn": 16,
     "dynamicBindingPathList": [],
-    "borderRadius": "ROUNDED",
+    "borderRadius": "0.375rem",
     "buttonVariant": "PRIMARY",
     "text": "Close"
 }
