@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "widgetName": "Select1",
     "isFilterable": true,
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "iconSVG": "/static/media/icon.bd99caba.svg",
     "labelText": "From",
