@@ -1,4 +1,6 @@
 {
+    "labelTextSize": "0.875rem",
+    "boxShadow": "none",
     "widgetName": "Button1",
     "rightColumn": 38,
     "onClick": "{{closeModal('Delete_Modal')}}",
@@ -17,7 +19,7 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 16,
     "dynamicBindingPathList": [],
-    "borderRadius": "ROUNDED",
+    "borderRadius": "0.375rem",
     "buttonVariant": "PRIMARY",
     "text": "Cancel",
     "isDisabled": false
