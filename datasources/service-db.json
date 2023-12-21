@@ -1,4 +1,5 @@
 {
+  "invalids": [],
   "name": "service-db",
   "pluginId": "mongo-plugin",
   "messages": [],
