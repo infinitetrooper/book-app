@@ -1,4 +1,5 @@
 {
+  "invalids": [],
   "name": "SMTP",
   "pluginId": "smtp-plugin",
   "messages": [],

@@ -1,4 +1,5 @@
 {
+  "invalids": [],
   "name": "Twilio",
   "pluginId": "twilio-1.2-plugin",
   "messages": [],

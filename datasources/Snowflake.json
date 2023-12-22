@@ -1,4 +1,5 @@
 {
+  "invalids": [],
   "name": "Snowflake",
   "pluginId": "snowflake-plugin",
   "messages": [],

@@ -1,4 +1,5 @@
 {
+  "invalids": [],
   "name": "Airtable",
   "pluginId": "airtable-plugin",
   "messages": [],

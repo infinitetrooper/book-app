@@ -1,4 +1,5 @@
 {
+  "invalids": [],
   "name": "DynamoDB",
   "pluginId": "dynamo-plugin",
   "messages": [],

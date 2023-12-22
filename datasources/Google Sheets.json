@@ -1,4 +1,5 @@
 {
+  "invalids": [],
   "name": "Google Sheets",
   "pluginId": "google-sheets-plugin",
   "messages": [],

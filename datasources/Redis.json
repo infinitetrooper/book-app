@@ -1,4 +1,5 @@
 {
+  "invalids": [],
   "name": "Redis",
   "pluginId": "redis-plugin",
   "messages": [],
