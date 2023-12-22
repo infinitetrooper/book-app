@@ -1,5 +1,4 @@
 {
-  "invalids": [],
   "name": "ArangoDB",
   "pluginId": "arangodb-plugin",
   "messages": [],
