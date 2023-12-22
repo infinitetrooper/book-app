@@ -1,5 +1,4 @@
 {
-  "invalids": [],
   "name": "ElasticSearch",
   "pluginId": "elasticsearch-plugin",
   "messages": [],
