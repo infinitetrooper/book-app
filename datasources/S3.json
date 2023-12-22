@@ -1,4 +1,5 @@
 {
+  "invalids": [],
   "name": "S3",
   "pluginId": "amazons3-plugin",
   "messages": [],

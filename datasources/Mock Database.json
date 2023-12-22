@@ -1,4 +1,5 @@
 {
+  "invalids": [],
   "name": "Mock Database",
   "pluginId": "postgres-plugin",
   "messages": [],

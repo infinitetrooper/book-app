@@ -1,4 +1,5 @@
 {
+  "invalids": [],
   "name": "Redshift",
   "pluginId": "redshift-plugin",
   "messages": [],
