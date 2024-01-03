@@ -41,8 +41,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-04-04T15:10:19Z"
+    "userPermissions": []
   },
   "id": "Home_Query2",
   "deleted": false,
