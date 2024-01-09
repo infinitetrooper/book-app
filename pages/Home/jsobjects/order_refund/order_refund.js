@@ -4,7 +4,7 @@ export default {
 			orderId: data.orderId
 		});
 
-		const userDetails = await get_user_details.run({
+		const userDetails = await get_user_details_from_db.run({
 			userId: data.userId 
 		});
 

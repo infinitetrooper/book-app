@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "dynamo-plugin",
   "unpublishedAction": {
-    "name": "get_user_details",
+    "name": "get_user_details_from_db",
     "datasource": {
       "name": "DynamoDB",
       "pluginId": "dynamo-plugin",
@@ -34,7 +34,7 @@
     "userPermissions": [],
     "createdAt": "2024-01-09T08:55:56Z"
   },
-  "id": "Home_get_user_details",
+  "id": "Home_get_user_details_from_db",
   "deleted": false,
   "gitSyncId": "63c00ed3c727580240c84b23_64d5c3a8637fa6506a2566a3"
 }
