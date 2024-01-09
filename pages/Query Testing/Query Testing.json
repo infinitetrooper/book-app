@@ -29,7 +29,6 @@
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Query Testing",
-        "deleted": false,
         "policies": [],
         "userPermissions": []
       }
@@ -38,6 +37,5 @@
     "policies": [],
     "isHidden": false
   },
-  "deleted": false,
   "gitSyncId": "641a8da5a8db493ee062abbb_641b24b0a8db493ee062ad3e"
 }
