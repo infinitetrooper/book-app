@@ -2,7 +2,7 @@
     "labelTextSize": "0.875rem",
     "boxShadow": "none",
     "widgetName": "Delete_Button",
-    "onClick": "{{DeleteQuery.run(() => FindQuery.run(() => closeModal('Delete_Modal')), () => {})}}",
+    "onClick": "{{Delete.run(() => FindQuery.run(() => closeModal('Delete_Modal')), () => {})}}",
     "rightColumn": 63,
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "buttonColor": "#F22B2B",

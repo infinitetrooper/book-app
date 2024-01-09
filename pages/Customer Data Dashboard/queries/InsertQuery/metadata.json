@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "DeleteQuery",
+    "name": "InsertQuery",
     "datasource": {
       "name": "Mongo_MarketingDB",
       "pluginId": "mongo-plugin",
@@ -13,11 +13,10 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Customer Data",
+    "pageId": "Customer Data Dashboard",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "template_table/{{data_table.selectedRow._ref}}",
       "encodeParamsToggle": true,
       "body": "",
       "selfReferencingDataPaths": [],
@@ -28,20 +27,15 @@
           "componentData": "Customers"
         },
         "command": {
-          "data": "DELETE",
+          "data": "INSERT",
           "viewType": "component",
-          "componentData": "DELETE"
+          "componentData": "INSERT"
         },
-        "delete": {
-          "query": {
-            "data": "{ _id: ObjectId('{{data_table.triggeredRow._id}}') }",
+        "insert": {
+          "documents": {
+            "data": "{\n \"CustomerID\": {{insert_col_input1.text}}, \n \"CustomerEmailID\": {{insert_col_input2.text}}, \n \"CustomerName\": {{insert_col_input3.text}}, \n \"UsersDoNotDisturb\": {{Switch2.isSwitchedOn?1:0}}\n}",
             "viewType": "component",
-            "componentData": "{ _id: ObjectId('{{data_table.triggeredRow._id}}') }"
-          },
-          "limit": {
-            "data": "SINGLE",
-            "viewType": "component",
-            "componentData": "SINGLE"
+            "componentData": "{\n \"CustomerID\": {{insert_col_input1.text}}, \n \"CustomerEmailID\": {{insert_col_input2.text}}, \n \"CustomerName\": {{insert_col_input3.text}}, \n \"UsersDoNotDisturb\": {{Switch2.isSwitchedOn?1:0}}\n}"
           }
         },
         "smartSubstitution": {
@@ -52,12 +46,19 @@
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.insert.documents.data"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "data_table.selectedRow._ref",
-      "data_table.triggeredRow._id"
+      "Switch2.isSwitchedOn?1:0",
+      "insert_col_input1.text",
+      "insert_col_input2.text",
+      "insert_col_input3.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
@@ -65,7 +66,7 @@
     "userPermissions": [],
     "createdAt": "2024-01-09T08:55:56Z"
   },
-  "id": "Customer Data_DeleteQuery",
+  "id": "Customer Data Dashboard_InsertQuery",
   "deleted": false,
-  "gitSyncId": "641a8da5a8db493ee062abbb_2023-03-22T12:11:37.223470046Z"
+  "gitSyncId": "641a8da5a8db493ee062abbb_2023-03-22T12:11:37.225442088Z"
 }

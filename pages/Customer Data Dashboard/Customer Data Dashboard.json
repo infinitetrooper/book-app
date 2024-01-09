@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Customer Data",
-    "slug": "customer-data",
+    "name": "Customer Data Dashboard",
+    "slug": "customer-data-dashboard",
     "layouts": [
       {
         "viewMode": false,
@@ -29,7 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Customer Data_FindQuery",
+              "id": "Customer Data Dashboard_FindQuery",
               "name": "FindQuery",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -46,7 +46,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Customer Data",
+        "id": "Customer Data Dashboard",
         "deleted": false,
         "policies": [],
         "userPermissions": []
