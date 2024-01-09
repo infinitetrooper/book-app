@@ -38,7 +38,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2024-01-09T05:32:35Z"
   },
   "id": "Home_loan_application.executeWorkflow",
   "deleted": false,
