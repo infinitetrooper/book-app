@@ -47,7 +47,6 @@
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Customer Data",
-        "deleted": false,
         "policies": [],
         "userPermissions": []
       }
@@ -56,6 +55,5 @@
     "policies": [],
     "isHidden": false
   },
-  "deleted": false,
   "gitSyncId": "641a8da5a8db493ee062abbb_641af079a8db493ee062aca5"
 }

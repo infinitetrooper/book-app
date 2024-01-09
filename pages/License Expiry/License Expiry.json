@@ -29,7 +29,6 @@
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "License Expiry",
-        "deleted": false,
         "policies": [],
         "userPermissions": []
       }
@@ -38,6 +37,5 @@
     "policies": [],
     "isHidden": false
   },
-  "deleted": false,
   "gitSyncId": "63c00ed3c727580240c84b23_65816d53379f475fe8dfab6a"
 }

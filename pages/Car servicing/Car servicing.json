@@ -40,7 +40,6 @@
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Car servicing",
-        "deleted": false,
         "policies": [],
         "userPermissions": []
       }
@@ -49,6 +48,5 @@
     "policies": [],
     "isHidden": false
   },
-  "deleted": false,
   "gitSyncId": "63c00ed3c727580240c84b23_63f84c602ea612208e11cb34"
 }
