@@ -30,6 +30,7 @@
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Home",
+        "deleted": false,
         "policies": [],
         "userPermissions": []
       }
@@ -38,5 +39,6 @@
     "policies": [],
     "isHidden": false
   },
+  "deleted": false,
   "gitSyncId": "63c00ed3c727580240c84b23_63c00ed3c727580240c84b26"
 }
