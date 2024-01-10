@@ -1,0 +1,86 @@
+{
+  "unpublishedPage": {
+    "name": "Home",
+    "slug": "home",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 550,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 87,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Home_JSObject1.myFun2",
+              "name": "JSObject1.myFun2",
+              "collectionId": "Home_JSObject1",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async (var1, var2) => {\n  console.log(var1, var2);\n  Query2.run();\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Home_Find_query1",
+              "name": "Find_query1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                " Table1.sortOrder.column ? { [Table1.sortOrder.column]: Table1.sortOrder.order !== \"desc\" ? 1 : -1 } : {}",
+                "{ homepage: {$regex: Table1.searchText} }",
+                "Table1.pageSize",
+                "Table1.pageOffset"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Home_Total_record_query1",
+              "name": "Total_record_query1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "{ homepage: {$regex: Table1.searchText} }"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Home",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "63c00ed3c727580240c84b23_63c00ed3c727580240c84b26"
+}
