@@ -36,7 +36,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2024-01-23T06:36:28Z"
   },
   "id": "Home_JSObject1.myFun1",
   "deleted": false,
