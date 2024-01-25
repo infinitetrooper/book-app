@@ -1,0 +1,50 @@
+{
+    "boxShadow": "none",
+    "widgetName": "RadioGroup1",
+    "displayName": "Radio Group",
+    "iconSVG": "/static/media/icon.ba2b2ee006e51a5c681d7964d7777481.svg",
+    "searchTags": ["choice"],
+    "topRow": 54,
+    "bottomRow": 58,
+    "parentRowSpace": 10,
+    "labelWidth": "10",
+    "type": "RADIO_GROUP_WIDGET",
+    "hideCard": false,
+    "defaultOptionValue": "0",
+    "animateLoading": true,
+    "parentColumnSpace": 6.58984375,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 2,
+    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "labelPosition": "Left",
+    "options": [
+        {
+            "label": "Standard: Free",
+            "value": "0"
+        },
+        {
+            "label": "Express: $15",
+            "value": "15"
+        }
+    ],
+    "isDisabled": false,
+    "key": "5qmpqjhhjb",
+    "labelTextSize": "0.875rem",
+    "isRequired": false,
+    "isDeprecated": false,
+    "rightColumn": 62,
+    "dynamicHeight": "FIXED",
+    "widgetId": "9rudzcyzna",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "label": "Shipping",
+    "version": 1,
+    "parentId": "866lsr13wt",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "maxDynamicHeight": 9000,
+    "isInline": true,
+    "alignment": "left",
+    "minDynamicHeight": 4
+}

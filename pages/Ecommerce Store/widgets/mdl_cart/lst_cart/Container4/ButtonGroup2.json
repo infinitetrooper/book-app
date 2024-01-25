@@ -1,0 +1,73 @@
+{
+    "boxShadow": "none",
+    "widgetName": "ButtonGroup2",
+    "isCanvas": false,
+    "dynamicPropertyPathList": [{"key": "groupButtons.groupButton1.onClick"}],
+    "displayName": "Button Group",
+    "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 4,
+    "bottomRow": 8,
+    "parentRowSpace": 10,
+    "groupButtons": {
+        "groupButton1": {
+            "onClick": "{{utils.saveQty(\n\tMath.max(parseInt(currentItem.qty) - 1,1),\n\tcurrentItem.id)}}",
+            "buttonType": "SIMPLE",
+            "iconName": "minus",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 0,
+            "label": "",
+            "id": "groupButton1",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "groupButton2": {
+            "onClick": "{{utils.saveQty(parseInt(currentItem.qty) + 1,currentItem.id)}}",
+            "buttonType": "SIMPLE",
+            "iconName": "plus",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 1,
+            "label": "",
+            "id": "groupButton2",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "type": "BUTTON_GROUP_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 6.4921875,
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"}
+    ],
+    "leftColumn": 30,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "groupButtons.groupButton1.buttonColor"},
+        {"key": "groupButtons.groupButton2.buttonColor"}
+    ],
+    "key": "t7argez6yc",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 43,
+    "dynamicHeight": "FIXED",
+    "widgetId": "4xhzzsci82",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "3npzz89k0l",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "TERTIARY"
+}
