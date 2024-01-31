@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Store",
-      "isDefault": false
-    },
-    {
       "id": "Page1",
       "isDefault": true
     }
@@ -20,10 +16,19 @@
   "publishedAppLayout": {
     "type": "MOBILE"
   },
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
+  "embedSetting": {
+    "height": "720px",
+    "width": "1024px",
+    "showNavigationBar": false
+  },
   "isManualUpdate": false,
   "deleted": false
 }
