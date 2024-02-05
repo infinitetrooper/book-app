@@ -1,0 +1,18 @@
+{
+  "moduleUUID": "65c0cc58b74be931b5d65e0e",
+  "type": "JS_MODULE",
+  "unpublishedModuleInstance": {
+    "version": "0.0.1",
+    "name": "JSModule1_1",
+    "contextType": "PAGE",
+    "pageId": "Home",
+    "inputs": {},
+    "jsonPathKeys": [],
+    "isValid": true,
+    "invalids": [],
+    "userPermissions": []
+  },
+  "id": "Home_JSModule1_1",
+  "deleted": false,
+  "gitSyncId": "65c0cd81b74be931b5d65eab_65c0cd90b74be931b5d65f05"
+}

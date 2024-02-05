@@ -29,6 +29,7 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
+    "hiddenJSLibs": [],
     "navigationSetting": {
       "showNavbar": true,
       "orientation": "side",

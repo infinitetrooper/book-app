@@ -1,0 +1,27 @@
+{
+  "moduleInstanceId": "Home_JSModule1_1",
+  "isPublic": true,
+  "rootModuleInstanceId": "Home_JSModule1_1",
+  "pluginType": "JS",
+  "pluginId": "js-plugin",
+  "unpublishedAction": {
+    "name": "myFun1",
+    "fullyQualifiedName": "_$JSModule1_1$_JSModule1.myFun1",
+    "pageId": "Home",
+    "contextType": "PAGE",
+    "collectionId": "Home__$JSModule1_1$_JSModule1",
+    "executeOnLoad": false,
+    "clientSideExecution": true,
+    "isValid": true,
+    "invalids": [],
+    "messages": [],
+    "userSetOnLoad": false,
+    "confirmBeforeExecute": false,
+    "policies": [],
+    "userPermissions": [],
+    "createdAt": "2024-02-05T11:54:01Z"
+  },
+  "id": "Home__$JSModule1_1$_JSModule1.myFun1",
+  "deleted": false,
+  "gitSyncId": "65c0cd81b74be931b5d65eab_65c0cd90b74be931b5d65f0e"
+}
