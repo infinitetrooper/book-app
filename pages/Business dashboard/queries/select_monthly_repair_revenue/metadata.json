@@ -109,7 +109,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2024-01-10T09:46:00Z"
   },
   "id": "Business dashboard_select_monthly_repair_revenue",
   "deleted": false,

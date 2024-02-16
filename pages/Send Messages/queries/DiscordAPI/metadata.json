@@ -52,13 +52,13 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "DiscordText.text",
-      "List1.selectedItem.Discord_Webhook"
+      "DiscordText.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2024-01-10T09:46:00Z"
   },
   "id": "Send Messages_DiscordAPI",
   "deleted": false,
