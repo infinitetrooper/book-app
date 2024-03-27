@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Websocket with Mutations",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "tickerStatus",
+        "value": "true"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Websocket with Mutations_Utils",
+  "deleted": false,
+  "gitSyncId": "66041fc77e104d3f8d85e917_6604201a7e104d3f8d85e9af"
+}

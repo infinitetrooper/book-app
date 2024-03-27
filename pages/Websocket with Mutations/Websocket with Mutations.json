@@ -1,0 +1,82 @@
+{
+  "unpublishedPage": {
+    "name": "Websocket with Mutations",
+    "slug": "websocket-with-mutations",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1230,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Websocket with Mutations_WebsocketUtils.initializeLastUpdateTimestamp",
+              "name": "WebsocketUtils.initializeLastUpdateTimestamp",
+              "collectionId": "Websocket with Mutations_WebsocketUtils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  WebsocketUtils.lastUpdateTimestamp = 0;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Websocket with Mutations_WebsocketUtils.onPageLoad",
+              "name": "WebsocketUtils.onPageLoad",
+              "collectionId": "Websocket with Mutations_WebsocketUtils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  WebsocketUtils.socket = new WebSocket(WebsocketUtils.WEBSOCKET_ENDPOINT);\n  WebsocketUtils.socket.onopen = WebsocketUtils.socketOnOpen;\n  WebsocketUtils.socket.onclose = WebsocketUtils.socketOnClose;\n  WebsocketUtils.socket.onmessage = WebsocketUtils.socketOnMessage;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Websocket with Mutations_Utils.getTickerDataByMarket",
+              "name": "Utils.getTickerDataByMarket",
+              "collectionId": "Websocket with Mutations_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  let market = sel_market.selectedOptionValue || \"all\";\n  console.log('SocketResData', WebsocketUtils.socketResponseData);\n  const tickerDataArray = _.toArray(WebsocketUtils.socketResponseData).filter(item => market === \"all\" || item.quote_unit === market);\n  const updatedTickerDataArray = tickerDataArray.map((item, index) => {\n    return {\n      ...item,\n      _id: index\n    };\n  });\n  return updatedTickerDataArray;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Websocket with Mutations",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "66041fc77e104d3f8d85e917_660420197e104d3f8d85e993"
+}

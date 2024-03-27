@@ -1,0 +1,51 @@
+{
+    "boxShadow": "none",
+    "mobileBottomRow": 13,
+    "widgetName": "icn_currencyMarker",
+    "buttonColor": "{{Utils.getHighLow(currentItem) === \"low\" ? \"#ef4444\" : \"#22c55e\"}}",
+    "dynamicPropertyPathList": [
+        {"key": "iconName"},
+        {"key": "buttonColor"}
+    ],
+    "displayName": "Icon button",
+    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 0,
+    "bottomRow": 4,
+    "tooltip": "{{Utils.getHighLow(currentItem)}}",
+    "parentRowSpace": 10,
+    "type": "ICON_BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 21,
+    "animateLoading": true,
+    "parentColumnSpace": 14.822265625,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 45,
+    "dynamicBindingPathList": [
+        {"key": "iconName"},
+        {"key": "tooltip"},
+        {"key": "buttonColor"}
+    ],
+    "isDisabled": false,
+    "key": "x4mwda1oyx",
+    "isDeprecated": false,
+    "rightColumn": 48,
+    "iconName": "{{Utils.getHighLow(currentItem) === \"low\" ? \"arrow-down\" : \"arrow-up\"}}",
+    "dynamicHeight": "FIXED",
+    "widgetId": "9ebiohqt4f",
+    "minWidth": 50,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "7znlq8v57g",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 9,
+    "responsiveBehavior": "hug",
+    "borderRadius": "0.375rem",
+    "mobileLeftColumn": 17,
+    "buttonVariant": "TERTIARY"
+}
