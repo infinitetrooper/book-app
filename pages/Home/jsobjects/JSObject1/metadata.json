@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject2",
-    "pageId": "Car showroom",
+    "name": "JSObject1",
+    "pageId": "Home",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Car showroom_JSObject2",
+  "id": "Home_JSObject1",
   "deleted": false,
-  "gitSyncId": "63c00ed3c727580240c84b23_65ae94e53402cc2577034d01"
+  "gitSyncId": "63c00ed3c727580240c84b23_660fc7c9001fba44a159cae8"
 }

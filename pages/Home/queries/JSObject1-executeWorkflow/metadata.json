@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject2.myFun1",
+    "name": "executeWorkflow",
+    "fullyQualifiedName": "JSObject1.executeWorkflow",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,17 +13,20 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Car showroom",
-    "collectionId": "Car showroom_JSObject2",
+    "pageId": "Home",
+    "collectionId": "Home_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": []
+      "jsArguments": [
+        {
+          "name": "data"
+        }
+      ]
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,9 +39,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-22T16:16:37Z"
+    "createdAt": "2024-04-05T09:43:41Z"
   },
-  "id": "Car showroom_JSObject2.myFun1",
+  "id": "Home_JSObject1.executeWorkflow",
   "deleted": false,
-  "gitSyncId": "63c00ed3c727580240c84b23_65ae94e53402cc2577034cf9"
+  "gitSyncId": "63c00ed3c727580240c84b23_660fc7cd001fba44a159caf7"
 }
