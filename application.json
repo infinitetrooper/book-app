@@ -1,15 +1,7 @@
 {
   "pages": [
     {
-      "id": "Customer Data",
-      "isDefault": false
-    },
-    {
-      "id": "Car servicing",
-      "isDefault": false
-    },
-    {
-      "id": "Car showroom",
+      "id": "Bugs and Issues",
       "isDefault": false
     },
     {
@@ -18,10 +10,6 @@
     },
     {
       "id": "Query Testing",
-      "isDefault": false
-    },
-    {
-      "id": "License Expiry",
       "isDefault": false
     }
   ],
@@ -51,13 +39,7 @@
   },
   "unpublishedCustomJSLibs": [
     {
-      "uidString": "jsonwebtoken_/libraries/jsonwebtoken@8.5.1.js"
-    },
-    {
       "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
-    },
-    {
-      "uidString": "UUID_https://cdn.jsdelivr.net/npm/uuidjs@4.2.12/src/uuid.min.js"
     }
   ],
   "publishedCustomJSLibs": [],

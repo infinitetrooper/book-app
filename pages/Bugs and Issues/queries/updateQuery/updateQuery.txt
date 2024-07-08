@@ -1,0 +1,1 @@
+{"baseId":"{{creds.baseId}}","command":"UPDATE_RECORDS","pageSize":"100","records":"[\n    {\n      \"id\": {{lst_issues.triggeredItem.id}},\n      \"fields\": {   \n        \"Priority\": {{sel_issuePriority.selectedOptionValue}},\n        \"Status\":{{sel_issueStatus.selectedOptionValue}},\n      }\n    }\n  ]\n}\n\n","tableName":"{{creds.tableName}}"}
