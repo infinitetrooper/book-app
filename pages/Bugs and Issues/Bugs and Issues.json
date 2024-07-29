@@ -1,57 +1,32 @@
 {
+  "gitSyncId": "63c00ed3c727580240c84b23_661e7a292d175f7e57bafe02",
   "unpublishedPage": {
-    "name": "Bugs and Issues",
-    "slug": "bugs-and-issues",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1160,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 1400,
-          "containerStyle": "none",
-          "snapRows": 125,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 1100,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Bugs and Issues_utils.filteredData",
-              "name": "utils.filteredData",
-              "collectionId": "Bugs and Issues_utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  let dataSource;\n  const status = sel_status.selectedOptionValue;\n  const priority = sel_priority.selectedOptionValue;\n  if (creds.baseId.length == 0 && creds.tableName.length == 0) {\n    dataSource = demoData.data.records;\n  } else {\n    const baseData = await getBase.run();\n    dataSource = baseData.records;\n  }\n  ;\n  return dataSource.filter(d => {\n    if (status && priority) {\n      return d.fields.Status === status && d.fields.Priority === priority;\n    } else if (status) {\n      return d.fields.Status === status;\n    } else if (priority) {\n      return d.fields.Priority === priority;\n    } else {\n      return true;\n    }\n  }).map(record => {\n    let row = record.fields;\n    row['id'] = record.id;\n    return row;\n  });\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Bugs and Issues",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1160,
+          "snapColumns": 64,
+          "snapRows": 125,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "63c00ed3c727580240c84b23_661e7a292d175f7e57bafe02"
+    "name": "Bugs and Issues",
+    "slug": "bugs-and-issues"
+  }
 }

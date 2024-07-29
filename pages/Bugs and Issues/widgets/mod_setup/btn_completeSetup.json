@@ -1,40 +1,48 @@
 {
-    "boxShadow": "none",
-    "widgetName": "btn_completeSetup",
-    "onClick": "{{closeModal('mod_setup');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 142,
-    "bottomRow": 147,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 47,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Complete setup",
-    "isDisabled": false,
-    "key": "h6kxjwfd3j",
-    "isDeprecated": false,
-    "rightColumn": 63,
-    "isDefaultClickDisabled": true,
-    "widgetId": "o3dbll9j9n",
-    "buttonStyle": "PRIMARY_BUTTON",
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "tgz4ej5rig",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 147,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "h6kxjwfd3j",
+  "leftColumn": 47,
+  "onClick": "{{closeModal('mod_setup');}}",
+  "parentId": "tgz4ej5rig",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "text": "Complete setup",
+  "topRow": 142,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "o3dbll9j9n",
+  "widgetName": "btn_completeSetup"
 }
