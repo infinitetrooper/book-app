@@ -1,22 +1,22 @@
 {
-  "gitSyncId": "63c00ed3c727580240c84b23_63c00ed3c727580240c84b26",
+  "gitSyncId": "641a8da5a8db493ee062abbb_641af079a8db493ee062aca5",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 380,
+          "bottomRow": 840,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 860,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1160,
           "snapColumns": 64,
           "snapRows": 125,
           "topRow": 0,
@@ -27,7 +27,7 @@
         }
       }
     ],
-    "name": "Home",
-    "slug": "home"
+    "name": "Customer Data",
+    "slug": "customer-data"
   }
 }

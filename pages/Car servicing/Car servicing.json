@@ -1,22 +1,21 @@
 {
-  "gitSyncId": "63c00ed3c727580240c84b23_63c00ed3c727580240c84b26",
+  "gitSyncId": "63c00ed3c727580240c84b23_63f84c602ea612208e11cb34",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 380,
+          "bottomRow": 890,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 640,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1160,
           "snapColumns": 64,
           "snapRows": 125,
           "topRow": 0,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Home",
-    "slug": "home"
+    "name": "Car servicing",
+    "slug": "car-servicing"
   }
 }
