@@ -22,6 +22,7 @@
       "name": "Mock Database",
       "pluginId": "postgres-plugin"
     },
+    "dynamicBindingPathList": [],
     "executeOnLoad": false,
     "name": "send_email",
     "pageId": "Home",
