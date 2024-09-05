@@ -12,7 +12,8 @@
           "name": "type"
         },
         {
-          "name": "length"
+          "name": "length",
+          "value": "{{10}}"
         }
       ],
       "paginationType": "NONE",
