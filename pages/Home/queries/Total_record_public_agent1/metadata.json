@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "Total_record_public_agent1",
     "pageId": "Home",
     "userSetOnLoad": false
