@@ -3,8 +3,8 @@ SELECT
 FROM
   public.agent
 WHERE
-  "agent" ilike '%{{Table1.searchText}}%' {{Table1.sortOrder.column ? "ORDER BY " + Table1.sortOrder.column + "  " + (Table1.sortOrder.order !== "desc" ? "" : "DESC") : ""}}
+  "agent" ilike '%{{users_table.searchText}}%' {{users_table.sortOrder.column ? "ORDER BY " + users_table.sortOrder.column + "  " + (users_table.sortOrder.order !== "desc" ? "" : "DESC") : ""}}
 LIMIT
-  {{Table1.pageSize}}
+  {{users_table.pageSize}}
 OFFSET
-  {{Table1.pageOffset}}
+  {{users_table.pageOffset}}

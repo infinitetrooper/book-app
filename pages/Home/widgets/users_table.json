@@ -31,10 +31,9 @@
     }
   },
   "columnOrder": [
-    "agent",
-    "customColumn1"
+    "agent"
   ],
-  "columnUpdatedAt": 1704885870114,
+  "columnUpdatedAt": 1725947344000,
   "columnWidthMap": {},
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -42,7 +41,6 @@
     0
   ],
   "delimiter": ",",
-  "displayName": "Table",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -57,53 +55,35 @@
       "key": "tableData"
     },
     {
-      "key": "totalRecordsCount"
-    },
-    {
       "key": "primaryColumns.agent.computedValue"
-    },
-    {
-      "key": "primaryColumns.customColumn1.menuColor"
     }
   ],
-  "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [
+  "dynamicPropertyPathList": [
     {
-      "key": "onPageChange"
-    },
-    {
-      "key": "onSearchTextChanged"
-    },
-    {
-      "key": "onSort"
+      "key": "tableData"
     }
   ],
-  "enableClientSideSearch": false,
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
-  "hideCard": false,
   "horizontalAlignment": "LEFT",
-  "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
   "inlineEditingSaveOption": "ROW_LEVEL",
-  "isDeprecated": false,
   "isLoading": false,
   "isSortable": true,
   "isVisible": true,
-  "isVisibleDownload": false,
-  "isVisibleFilters": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
-  "key": "bjr9p4f6av",
+  "key": "8whdwx2je7",
   "label": "Data",
   "leftColumn": 0,
   "minWidth": 450,
   "mobileBottomRow": 30,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 29,
+  "mobileRightColumn": 30,
   "mobileTopRow": 2,
-  "needsHeightForContent": true,
-  "onPageChange": "{{\n            Select_public_agent1.run();\n            Total_record_public_agent1.run()\n          }}",
-  "onSearchTextChanged": "{{\n            Select_public_agent1.run();\n            Total_record_public_agent1.run()\n          }}",
-  "onSort": "{{\n            Select_public_agent1.run();\n            Total_record_public_agent1.run()\n          }}",
+  "needsErrorInfo": false,
   "parentColumnSpace": 17.9375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -113,7 +93,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"agent\"]))}}",
+      "computedValue": "{{users_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"agent\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -138,79 +118,19 @@
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
-    },
-    "customColumn1": {
-      "alias": "Select",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "buttonStyle": "rgb(3, 179, 101)",
-      "columnType": "menuButton",
-      "computedValue": "",
-      "currencyCode": "USD",
-      "customAlias": "",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "customColumn1",
-      "index": 1,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": true,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "Select",
-      "labelColor": "#FFFFFF",
-      "menuButtonLabel": "Resolve",
-      "menuColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
-      "menuItems": {
-        "menuItem2eeeslrj6h": {
-          "id": "menuItem2eeeslrj6h",
-          "index": 0,
-          "isDisabled": false,
-          "isVisible": true,
-          "label": "Approve",
-          "widgetId": "nn1ce0l4xo"
-        },
-        "menuItemhj6sc19thc": {
-          "id": "menuItemhj6sc19thc",
-          "index": 1,
-          "isDisabled": false,
-          "isVisible": true,
-          "label": "Reject",
-          "widgetId": "nw7x3ldlc7"
-        }
-      },
-      "menuItemsSource": "STATIC",
-      "notation": "standard",
-      "originalId": "customColumn1",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
     }
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 29,
+  "rightColumn": 30,
   "searchKey": "",
-  "serverSidePaginationEnabled": true,
   "tableData": "{{Select_public_agent1.data}}",
-  "tags": [
-    "Suggested",
-    "Display"
-  ],
   "textSize": "0.875rem",
   "topRow": 2,
-  "totalRecordsCount": "{{Total_record_public_agent1.data[0].count}}",
+  "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
-  "widgetId": "kkcvnee66x",
-  "widgetName": "Table1"
+  "widgetId": "rm7czujr59",
+  "widgetName": "users_table"
 }
