@@ -7,6 +7,11 @@
     "actionConfiguration": {
       "body": "body",
       "encodeParamsToggle": true,
+      "formData": {
+        "entityType": {
+          "data": "ROWS"
+        }
+      },
       "httpMethod": "GET",
       "paginationType": "NONE",
       "path": "GetItem",
