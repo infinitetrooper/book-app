@@ -35,9 +35,9 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "mock_api",
     "pageId": "Query Testing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

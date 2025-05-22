@@ -25,9 +25,9 @@
         "key": "formData.values"
       }
     ],
-    "executeOnLoad": false,
     "name": "Hubspot",
     "pageId": "Query Testing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -60,9 +60,9 @@
         "key": "formData.body.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "Firestore",
     "pageId": "Query Testing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

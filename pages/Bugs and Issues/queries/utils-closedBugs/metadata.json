@@ -23,10 +23,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "utils.closedBugs",
     "name": "closedBugs",
     "pageId": "Bugs and Issues",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

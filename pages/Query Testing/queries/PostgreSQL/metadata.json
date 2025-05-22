@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "PostgreSQL",
     "pageId": "Query Testing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -100,9 +100,9 @@
       "pluginId": "mongo-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "MongoDB",
     "pageId": "Query Testing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -17,9 +17,9 @@
       "name": "DynamoDB",
       "pluginId": "dynamo-plugin"
     },
-    "executeOnLoad": false,
     "name": "update_user_details",
     "pageId": "Home",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

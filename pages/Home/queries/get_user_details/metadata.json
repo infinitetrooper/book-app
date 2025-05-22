@@ -19,9 +19,9 @@
       "pluginId": "dynamo-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "get_user_details",
     "pageId": "Home",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

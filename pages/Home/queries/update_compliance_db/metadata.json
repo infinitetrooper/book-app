@@ -17,9 +17,9 @@
       "name": "DynamoDB",
       "pluginId": "dynamo-plugin"
     },
-    "executeOnLoad": false,
     "name": "update_compliance_db",
     "pageId": "Home",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
