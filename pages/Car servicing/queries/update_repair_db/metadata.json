@@ -64,9 +64,9 @@
         "key": "formData.updateMany.query.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "update_repair_db",
     "pageId": "Car servicing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

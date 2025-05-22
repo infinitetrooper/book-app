@@ -39,9 +39,9 @@
         "key": "formData.body.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "fetch_repair_db",
     "pageId": "Car servicing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

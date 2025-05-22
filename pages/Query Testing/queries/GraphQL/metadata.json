@@ -43,9 +43,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "GraphQL",
     "pageId": "Query Testing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

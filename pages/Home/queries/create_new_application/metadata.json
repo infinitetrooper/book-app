@@ -39,9 +39,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "create_new_application",
     "pageId": "Home",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -107,9 +107,9 @@
         "key": "formData.find.skip.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "select_repair_db",
     "pageId": "Car servicing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

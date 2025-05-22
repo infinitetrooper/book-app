@@ -47,9 +47,9 @@
       "name": "Mongo_MarketingDB",
       "pluginId": "mongo-plugin"
     },
-    "executeOnLoad": false,
     "name": "DeleteQuery",
     "pageId": "Customer Data",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

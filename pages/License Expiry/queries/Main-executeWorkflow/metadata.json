@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "Main.executeWorkflow",
     "name": "executeWorkflow",
     "pageId": "License Expiry",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

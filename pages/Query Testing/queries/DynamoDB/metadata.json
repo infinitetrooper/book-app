@@ -23,9 +23,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "DynamoDB",
     "pageId": "Query Testing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

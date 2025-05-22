@@ -46,9 +46,9 @@
         "key": "formData.insert.documents.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "InsertQuery",
     "pageId": "Customer Data",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -22,9 +22,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "Arango",
     "pageId": "Query Testing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

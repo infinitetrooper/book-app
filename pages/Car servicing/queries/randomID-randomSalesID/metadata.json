@@ -23,10 +23,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "randomID.randomSalesID",
     "name": "randomSalesID",
     "pageId": "Car servicing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

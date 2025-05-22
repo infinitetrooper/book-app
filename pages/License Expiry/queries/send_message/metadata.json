@@ -35,9 +35,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "send_message",
     "pageId": "License Expiry",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

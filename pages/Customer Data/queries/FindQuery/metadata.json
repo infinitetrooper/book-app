@@ -56,9 +56,9 @@
       "name": "Mongo_MarketingDB",
       "pluginId": "mongo-plugin"
     },
-    "executeOnLoad": true,
     "name": "FindQuery",
     "pageId": "Customer Data",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }

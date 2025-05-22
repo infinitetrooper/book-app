@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "JSObject1.executeWorkflow",
     "name": "executeWorkflow",
     "pageId": "Car servicing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
