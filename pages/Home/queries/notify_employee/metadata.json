@@ -22,9 +22,9 @@
       "name": "SMTP",
       "pluginId": "smtp-plugin"
     },
-    "executeOnLoad": false,
     "name": "notify_employee",
     "pageId": "Home",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

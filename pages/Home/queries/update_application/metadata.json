@@ -47,9 +47,9 @@
       "name": "Ping",
       "pluginId": "restapi-plugin"
     },
-    "executeOnLoad": false,
     "name": "update_application",
     "pageId": "Home",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

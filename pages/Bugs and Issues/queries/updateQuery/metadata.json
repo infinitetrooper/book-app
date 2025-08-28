@@ -21,9 +21,9 @@
         "key": "formData.records"
       }
     ],
-    "executeOnLoad": false,
     "name": "updateQuery",
     "pageId": "Bugs and Issues",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

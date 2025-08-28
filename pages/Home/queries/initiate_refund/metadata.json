@@ -22,9 +22,9 @@
       "name": "Mock_DB",
       "pluginId": "postgres-plugin"
     },
-    "executeOnLoad": false,
     "name": "initiate_refund",
     "pageId": "Home",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

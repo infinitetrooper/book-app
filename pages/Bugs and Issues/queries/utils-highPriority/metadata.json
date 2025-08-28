@@ -23,10 +23,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "utils.highPriority",
     "name": "highPriority",
     "pageId": "Bugs and Issues",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

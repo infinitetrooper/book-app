@@ -24,9 +24,9 @@
         "key": "formData.baseId"
       }
     ],
-    "executeOnLoad": false,
     "name": "getBase",
     "pageId": "Bugs and Issues",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }

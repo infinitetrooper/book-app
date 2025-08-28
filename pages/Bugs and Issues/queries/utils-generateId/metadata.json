@@ -31,10 +31,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "utils.generateId",
     "name": "generateId",
     "pageId": "Bugs and Issues",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -20,9 +20,9 @@
       "name": "SMTP",
       "pluginId": "smtp-plugin"
     },
-    "executeOnLoad": false,
     "name": "SMTP",
     "pageId": "Query Testing",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
